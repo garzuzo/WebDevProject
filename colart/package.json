@@ -6,6 +6,8 @@
     "antd": "^3.16.1",
     "babel-plugin-import": "^1.11.0",
     "customize-cra": "^0.2.12",
+    "gh-pages": "^2.0.1",
+    "homepage": "https://garzuzo.github.io/WebDevProject",
     "react": "^16.8.6",
     "react-app-rewired": "^2.1.1",
     "react-dom": "^16.8.6",
@@ -15,7 +17,9 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+ "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
