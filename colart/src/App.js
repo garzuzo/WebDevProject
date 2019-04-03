@@ -7,7 +7,7 @@ import {
   Form, Select, Input, Button, Carousel, Card, Icon, Menu
 } from 'antd';
 
-import firstCarousel from './static/images/ballet.jpg';
+import {firstCarousel} from './static/images/concert.jpg';
 import secondCarousel from './static/images/concert.jpg';
 import thirdCarousel from './static/images/dancers.jpg';
 import musician from './static/images/musician.jpg';
@@ -56,13 +56,13 @@ class App extends Component {
 <content>
         <Carousel autoplay style={{width:70}}>
           <div>
-            <img alt="example" src={firstCarousel} style={{ width: 1180 }}></img>
+            <img alt="example" src="https://images.pexels.com/photos/358010/pexels-photo-358010.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style={{ width: 1180 }}></img>
           </div>
           <div>
-          <img alt="example" src={secondCarousel} style={{ width: 1180 }}></img>
+          <img alt="example" src="https://images.pexels.com/photos/952422/pexels-photo-952422.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style={{ width: 1180 }}></img>
           </div>
           <div>
-          <img alt="example" src={thirdCarousel} style={{ width: 1180 }}></img>
+          <img alt="example" src="https://images.pexels.com/photos/1405816/pexels-photo-1405816.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" style={{ width: 1180 }}></img>
           </div>
      
         </Carousel>
@@ -73,7 +73,7 @@ class App extends Component {
             <Card
               hoverable
               style={{ width: 240, gridStyle }}
-              cover={<img alt="example" style={gridImgStyle} src={musicianWoman} />}
+              cover={<img alt="example" style={gridImgStyle} src="https://images.pexels.com/photos/1735240/pexels-photo-1735240.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />}
             >
               <Meta
                 title="Carolina Sierra - Cantante"
@@ -87,7 +87,7 @@ class App extends Component {
             <Card
               hoverable
               style={{ width: 240, gridStyle }}
-              cover={<img alt="example" style={gridImgStyle} src={musician} />}
+              cover={<img alt="example" style={gridImgStyle} src="https://images.pexels.com/photos/379962/pexels-photo-379962.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />}
             >
               <Meta
                 title="Juan Agudelo - Guitarrista"
@@ -101,7 +101,7 @@ class App extends Component {
             <Card
               hoverable
               style={{ width: 240, gridStyle }}
-              cover={<img alt="example" style={gridImgStyle} src={dancer} />}
+              cover={<img alt="example" style={gridImgStyle} src="https://images.pexels.com/photos/1886694/pexels-photo-1886694.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />}
             >
               <Meta
                 title="Juanita Rendón - Bailarina"
@@ -114,7 +114,7 @@ class App extends Component {
             <Card
               hoverable
               style={{ width: 240, gridStyle }}
-              cover={<img alt="example" style={gridImgStyle} src={painter}/>}
+              cover={<img alt="example" style={gridImgStyle} src="https://images.unsplash.com/photo-1549123792-275210fbcef8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=333&q=80"/>}
             >
               <Meta
                 title="Mariana Valencia - Pintora"
